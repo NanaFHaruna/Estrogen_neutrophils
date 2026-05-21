@@ -1,4 +1,4 @@
-# AIS: Acute Ischemic Stroke scRNA-seq Integration and Analysis Pipeline
+# Mouse NextGEM scRNA-seq Integration Pipeline
 
 ## Overview
 This folder contains the complete single-cell RNA sequencing (scRNA-seq) workflow used for preprocessing, hashtag oligonucleotide (HTO) correction, merging, batch analysis, integration, clustering, and downstream analysis of mouse NextGEM datasets.
