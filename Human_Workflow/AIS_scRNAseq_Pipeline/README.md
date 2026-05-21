@@ -1,23 +1,26 @@
-# SLE: Neutrophil and Low-Density Granulocyte scRNA-seq Pipeline
+# AIS: Acute Ischemic Stroke scRNA-seq Integration and Analysis Pipeline
 
 ## Overview
 
-This folder contains the complete single-cell RNA sequencing (scRNA-seq) workflow used for integration, preprocessing, clustering, and downstream analysis of SLE neutrophil and PBMC datasets.
+This folder contains the scRNA-seq workflow used for preprocessing, quality control, integration, clustering, visualization, and downstream analysis of Acute Ischemic Stroke (AIS) datasets.
 
-The workflow is implemented in **R** using the **Seurat** library. The scripts are organized into sequential analysis stages beginning with sample merging and object preparation, followed by integration, LDG extraction, metadata annotation, clustering, visualization, and downstream biological analysis.
+The workflow is implemented in **R** using the **Seurat** library. The scripts detail the stages of raw sample quality control and dataset merging, integration, dimensionality reduction, clustering, visualization, and downstream transcriptional analysis.
+
 
 ---
 
 ## Workflow Summary
 
-The pipeline performs the following major tasks:
+The pipeline performs the following tasks:
 
-- Merge and preprocess raw Seurat objects from SLE cohorts
-- Independently merge neutrophil and PBMC datasets
-- Integrate datasets across conditions and batches using Seurat integration workflows
-- Identify and subset low-density granulocyte (LDG) populations from PBMC-derived cells
-- Combine LDGs with neutrophil datasets for integrated analysis
-- Add and harmonize metadata annotations across samples and conditions
-- Perform dimensionality reduction, clustering, visualization, and downstream transcriptional analysis of neutrophil and LDG populations
+- Quality control filtering of raw AIS scRNA-seq samples
+- Preprocess individual Seurat objects
+- Merge AIS datasets across samples and experimental conditions
+- Perform downstream merge-level exploratory analysis and quality assessment
+- Integrate datasets using Seurat integration workflows to reduce batch effects
+- Generate dimensionality reduction embeddings, including PCA and UMAP
+- Perform clustering and subclustering analyses
+- Generate visualization outputs for AIS immune populations
+- Downstream transcriptional and comparative analyses
 
 ---
