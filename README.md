@@ -3,7 +3,7 @@
  ### Estrogen imprints neutrophil fate through epigenetic programming of hematopoiesis underlying female-biased autoimmunity
 
 <h2>Description</h2>
-This paper sought to understand mechanisms underlying sex differences in neutrophils, which likely impact sex differences in susceptibility to autoimmunity, infection, and cancer. We are performing single-cell RNA and single-cell ATAC sequencing of human and mouse neutrophils to assess for sex hormone and/or X-chromosome-mediated transcriptional changes.
+This project sought to understand mechanisms underlying sex differences in neutrophils, which likely impact sex differences in susceptibility to autoimmunity, infection, and cancer. We are performing single-cell RNA and single-cell ATAC sequencing of human and mouse neutrophils to assess for sex hormone and/or X-chromosome-mediated transcriptional changes.
 <br />
 
 <h2>Abstract</h2>
