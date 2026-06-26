@@ -12,4 +12,4 @@ Neutrophils are essential mediators of host defense and increasingly recognized 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>R with different packages for scRNA and scATAC analysis</b> 
+- <b>R (4.3.0) with different packages for scRNA and scATAC analysis</b> 
